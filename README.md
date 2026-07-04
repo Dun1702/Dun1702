@@ -13,6 +13,7 @@
 <p>
   <a href="#mission-control"><img src="https://img.shields.io/badge/Launch-Mission_Control-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Launch Mission Control" /></a>
   <a href="#featured-build"><img src="https://img.shields.io/badge/Open-Featured_Build-F97316?style=for-the-badge&labelColor=0D1117" alt="Open Featured Build" /></a>
+  <a href="#open-source-lab"><img src="https://img.shields.io/badge/Explore-Open_Source_Lab-22C55E?style=for-the-badge&labelColor=0D1117" alt="Explore Open Source Lab" /></a>
   <a href="#embedded-edge"><img src="https://img.shields.io/badge/Enter-Embedded_Edge-22C55E?style=for-the-badge&labelColor=0D1117" alt="Enter Embedded Edge" /></a>
   <a href="#github-signal"><img src="https://img.shields.io/badge/View-GitHub_Signal-7C3AED?style=for-the-badge&labelColor=0D1117" alt="View GitHub Signal" /></a>
 </p>
@@ -146,6 +147,74 @@ embedded:
 | Optimization | COG, load-balance, axle score, multi-container selection |
 | Workflow | Excel import/template, reports, shareable public views |
 | Product Feel | Operational UI for logistics planning and load inspection |
+
+</details>
+
+## Open Source Lab
+
+Public source built as reusable foundations: real problems, clean architecture, quick-start docs, tests where they matter, and deployable demos.
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>FleetPulse IoT Hub</h3>
+      <p>Device-to-cloud telemetry starter for ESP32/STM32 fleets with ingest API, device state, alert scoring, simulator, and tests.</p>
+      <p>
+        <a href="https://github.com/Dun1702/fleetpulse-iot-hub">
+          <img src="https://img.shields.io/badge/Open_Repo-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Open FleetPulse repository" />
+        </a>
+        <img src="https://img.shields.io/badge/Use_Case-IoT_Operations-00D9FF?style=flat-square&labelColor=0D1117" alt="IoT operations" />
+        <img src="https://img.shields.io/badge/Stack-ESP32_MQTT_Node-22C55E?style=flat-square&labelColor=0D1117" alt="ESP32 MQTT Node" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3>InvoiceLens AI Pipeline</h3>
+      <p>Python invoice extraction pipeline with structured JSON/CSV output, validation flags, confidence scoring, sample invoice, and tests.</p>
+      <p>
+        <a href="https://github.com/Dun1702/invoicelens-ai-pipeline">
+          <img src="https://img.shields.io/badge/Open_Repo-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Open InvoiceLens repository" />
+        </a>
+        <img src="https://img.shields.io/badge/Use_Case-Business_Automation-F97316?style=flat-square&labelColor=0D1117" alt="Business automation" />
+        <img src="https://img.shields.io/badge/Stack-Python_CLI_JSON_CSV-7C3AED?style=flat-square&labelColor=0D1117" alt="Python CLI JSON CSV" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>WarehouseFlow OS</h3>
+      <p>Warehouse workflow API for receiving stock, moving bins, pick tasks, inventory snapshots, event history, and operator analytics.</p>
+      <p>
+        <a href="https://github.com/Dun1702/warehouseflow-os">
+          <img src="https://img.shields.io/badge/Open_Repo-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Open WarehouseFlow repository" />
+        </a>
+        <img src="https://img.shields.io/badge/Use_Case-Inventory_Workflow-22C55E?style=flat-square&labelColor=0D1117" alt="Inventory workflow" />
+        <img src="https://img.shields.io/badge/Stack-Node_API_Inventory-00D9FF?style=flat-square&labelColor=0D1117" alt="Node API Inventory" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3>LaunchOps Kit</h3>
+      <p>Production-minded deployment kit with Docker Compose, Nginx, GitHub Actions CI, healthcheck script, release checklist, and backup policy.</p>
+      <p>
+        <a href="https://github.com/Dun1702/launchops-kit">
+          <img src="https://img.shields.io/badge/Open_Repo-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Open LaunchOps repository" />
+        </a>
+        <img src="https://img.shields.io/badge/Use_Case-DevOps_Starter-7C3AED?style=flat-square&labelColor=0D1117" alt="DevOps starter" />
+        <img src="https://img.shields.io/badge/Stack-Docker_Nginx_GitHub_Actions-F97316?style=flat-square&labelColor=0D1117" alt="Docker Nginx GitHub Actions" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+<details open>
+<summary><b>Open-source quality bar</b></summary>
+
+| Repo | Problem solved | Source signal |
+| --- | --- | --- |
+| [container-packing](https://github.com/Dun1702/container-packing) | Logistics loading and 3D inspection | Full-stack flagship build |
+| [fleetpulse-iot-hub](https://github.com/Dun1702/fleetpulse-iot-hub) | Device telemetry and alerting | Node API, simulator, tests |
+| [invoicelens-ai-pipeline](https://github.com/Dun1702/invoicelens-ai-pipeline) | Invoice extraction workflow | Python CLI, parser, sample, tests |
+| [warehouseflow-os](https://github.com/Dun1702/warehouseflow-os) | Warehouse inventory operations | Workflow API, event ledger, tests |
+| [launchops-kit](https://github.com/Dun1702/launchops-kit) | Deployment and release hygiene | Docker, Nginx, CI, ops docs |
 
 </details>
 
